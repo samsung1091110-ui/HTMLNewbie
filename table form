@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thực Hành Tạo Form</title>
+</head>
+
+<body>
+    <form action="">
+        <table cellspacing="0" cellpadding="10" width="80%" align="center">
+            <tr bgcolor="orange">
+                <th colspan="2"> ZENT GROUP</th>
+            </tr>
+            <tr bgcolor="lightgray">
+                <td width="300px">Họ Và Tên:</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr bgcolor="lightgray">
+                <td>Email:</td>
+                <td><input type="email"></td>
+            </tr>
+            <tr bgcolor="lightgray">
+                <td>Số Điện Thoại:</td>
+                <td><input type="tel"></td>
+            </tr>
+            <tr bgcolor="lightgray">
+                <td>Quê Quán:</td>
+                <td>
+                    <select name="City" id="City">
+                        <option value="Hà Nội">Hà Nội</option>
+                        <option value="Nam Định">Nam Định</option>
+                        <option value="Thanh Hóa">Thanh Hóa</option>
+                        <option value="Cao Bằng">Cao Bằng</option>
+                        <option value="Hải Dương">Hải Dương</option>
+                    </select>
+                </td>
+            </tr>
+            <tr bgcolor="lightgray">
+                <td>Giới Tính:</td>
+                <td>
+                    <input type="radio" name="Gender" id="Male" value="Male">
+                    <label for="Male">Nam</label>
+                    <input type="radio" name="Gender" id="Female" value="Female">
+                    <label for="Female">Nữ</label>
+                </td>
+            </tr>
+            <tr bgcolor="lightgray">
+                <td>Kỹ Năng:</td>
+                <td>
+                    <input type="checkbox" name="Skills" id="Skill1">
+                    <label for="Skill1">HTML</label>
+                    <input type="checkbox" name="Skills" id="Skill2">
+                    <label for="Skill2">CSS</label>
+                    <input type="checkbox" name="Skills" id="Skill3">
+                    <label for="Skill3">JavaScript</label>
+                    <input type="checkbox" name="Skills" id="skill4">
+                    <label for="skill4">BOOTSTRAP</label>
+                </td>
+            </tr>
+            <tr bgcolor="lightgray">
+                <td>Ngày sinh</td>
+                <td><input type="date"></td>
+            </tr>
+            <tr bgcolor="lightgray">
+                <td>Miêu tả:</td>
+                <td><textarea name="Description" id="Description" cols="35" rows="10"></textarea></td>
+            </tr>
+            <tr bgcolor="lightgray">
+                <td colspan="2" bgcolor="orange" align="center">
+                    <input type="submit" value="Submit">
+                    <input type="reset" value="Reset">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>
