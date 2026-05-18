@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="">
+        <input type="text" name="Họ và Tên" placeholder="Họ và Tên"><br>
+        <input type="password" placeholder="Nhập password"><br>
+        <input type="submit"><br>
+        <input type="radio" name="gender" id="Male">
+        <label for="Male">Male</label><br>
+        <input type="radio" name="gender" id="Female" value="female">
+        <label for="Female">Female</label><br>
+        <input type="radio" name="gender" id="Other" value="other">
+        <label for="Other">Other</label><br>
+        <input type="checkbox" id="1">
+        <label for="1">1</label>
+        <input type="checkbox" id="2">
+        <label for="2">2</label>
+        <input type="checkbox" id="3">
+        <label for="3">3</label><br>
+        <input type="file"><br>
+        <input type="date"> <br>
+        <select name="" id="">
+            <option value="">Hà Nội</option>
+            <option value="">TP. Hồ Chí Minh</option>
+            <option value="">Đà Nẵng</option>
+            <option value="">Huế</option>
+            <option value="">Nha Trang</option>
+        </select><br>
+        <textarea name="" id="" cols="30" rows="5" placeholder="Nhập mô tả"></textarea>
+    </form>
+
+</body>
+
+</html>
