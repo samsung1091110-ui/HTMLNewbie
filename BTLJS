@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cửa hàng nước giải khát</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="dau-trang">
+        <h1>Cửa hàng nước giải khát Phúc Quang Quang Anh</h1>
+        <p>Mô hình bán nước giải khát đơn giản bằng HTML, CSS và JavaScript.</p>
+    </header>
+
+    <main class="khung-chinh">
+        <section class="khu-vuc">
+            <div class="tieu-de-khu-vuc">
+                <h2>Danh sách sản phẩm</h2>
+                <p>Chọn loại nước hoặc bấm mua để thêm vào giỏ hàng.</p>
+            </div>
+
+            <div class="bo-loc">
+                <button id="btnTatCa" type="button">Tất cả</button>
+                <button id="btnNuocNgot" type="button">Nước ngọt</button>
+                <button id="btnTra" type="button">Trà</button>
+                <button id="btnNuocEp" type="button">Nước ép</button>
+            </div>
+
+            <div id="danhSachSanPham" class="danh-sach-san-pham"></div>
+        </section>
+
+        <aside class="khu-vuc gio-hang">
+            <h2>Giỏ hàng</h2>
+            <ul id="gioHang"></ul>
+            <p id="tongTien" class="tong-tien">Tổng tiền: 0đ</p>
+            <button id="btnThanhToan" class="nut-thanh-toan" type="button">Thanh toán</button>
+            <p id="thongBao" class="thong-bao"></p>
+        </aside>
+
+        <section class="khu-vuc gop-y">
+            <h2>Góp ý khách hàng</h2>
+
+            <label for="tenKhach">Tên khách hàng</label>
+            <input id="tenKhach" type="text" placeholder="Nhập tên của bạn">
+
+            <label for="noiDungGopY">Nội dung góp ý</label>
+            <textarea id="noiDungGopY" rows="4" placeholder="Bạn muốn góp ý điều gì?"></textarea>
+
+            <button id="btnGuiGopY" type="button">Gửi góp ý</button>
+            <p id="ketQuaGopY" class="thong-bao"></p>
+        </section>
+    </main>
+
+    <footer class="chan-trang">
+        <p>Trang web mẫu cho người mới học lập trình web.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
